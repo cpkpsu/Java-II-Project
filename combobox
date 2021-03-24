@@ -1,0 +1,33 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class MyFrame extends JFrame implements ActionListener{
+
+JComboBox comboBox;
+ 
+ MyFrame(){
+  this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  this.setLayout(new FlowLayout()); 
+  
+  String[] countryISOCode = {"USA","GBR","MEX","IRL","CAN","NOR","SWE","BLR","TUR","PRT","ESP","FRA","DEU","CHE"};
+  //Dropdown menu aka combobox choices
+  //there are over 100 countries from the OWID repository which I could list here but it would take a long time
+  
+  comboBox = new JComboBox(countryISOCode);
+  comboBox.addActionListener(this);
+  comboBox.setEditable(false);
+  
+  this.add(comboBox);
+  this.pack();
+  this.setVisible(true);
+ }
+ 
+ @Override
+ public void actionPerformed(ActionEvent e) {
+  if(e.getSource()==comboBox) {
+   System.out.println(comboBox.getSelectedItem());
+   //System.out.println(comboBox.getSelectedIndex());
+  }
+ }
+}
