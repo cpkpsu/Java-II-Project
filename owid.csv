@@ -1,4 +1,4 @@
-iso_code,continent,location,last_updated_date,total_vaccinations,people_vaccinated,people_fully_vaccinated,new_vaccinations,new_vaccinations_smoothed,total_vaccinations_per_hundred,people_vaccinated_per_hundred,people_fully_vaccinated_per_hundred,new_vaccinations_smoothed_per_million
+iso_code,continent,location,last_updated_date,total_vaccinations,people_vaccinated,people_fully_vaccinated,new_vaccinations,new_vaccinations_smoothed,total_vaccinations_per_hundred,people_vaccinated_per_hundred,people_fully_vaccinated_per_hundred,new_vaccinations_smoothed_per_million,brand
 AFG,Asia,Afghanistan,3/22/21,54000,54000,,,2862,0.14,0.14,,74
 ALB,Europe,Albania,3/22/21,48229,,,,2679,1.68,,,931
 AND,Europe,Andorra,3/22/21,4914,3650,1264,,264,6.36,4.72,1.64,3417
@@ -40,7 +40,7 @@ EST,Europe,Estonia,3/22/21,224511,167488,57023,1345,4758,16.92,12.63,4.3,3587
 FRO,Europe,Faeroe Islands,3/22/21,9427,5388,4039,172,71,19.29,11.03,8.27,1453
 FIN,Europe,Finland,3/22/21,821334,733798,87536,1680,19650,14.82,13.24,1.58,3546
 FRA,Europe,France,3/22/21,8629076,6199118,2429958,55525,181354,12.66,9.1,3.57,2661
-DEU,Europe,Germany,3/22/21,10862288,7517073,3345215,158289,196851,12.96,8.97,3.99,2350
+DEU,Europe,Germany,3/22/21,10862288,7517073,3345215,158289,196851,12.96,8.97,3.99,2350,Pfizer/BioNtech/Moderna/Oxford/AstraZeneca
 GHA,Africa,Ghana,3/22/21,420000,420000,,,15000,1.35,1.35,,483
 GIB,Europe,Gibraltar,3/22/21,53171,30119,23052,0,852,157.82,89.4,68.42,25289
 GRC,Europe,Greece,3/22/21,1469020,997959,471061,29427,26226,14.09,9.57,4.52,2516
